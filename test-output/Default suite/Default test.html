@@ -1,0 +1,174 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>19/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon May 23 01:47:07 IST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>164 seconds (164643 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.Runner.UniversalClassRunner.Scenario()'><b>Scenario</b><br>Test class: com.Runner.UniversalClassRunner<br>Test method: Runs Cucumber Feature<br>Parameters: "To validate that the user is able to put text in Search Bar", "Optional[Verification of text in Search Bar]"</td>
+<td></td>
+<td>5</td>
+<td>com.Runner.UniversalClassRunner@7526515b</td></tr>
+<tr>
+<td title='com.Runner.UniversalClassRunner.Scenario()'><b>Scenario</b><br>Test class: com.Runner.UniversalClassRunner<br>Test method: Runs Cucumber Feature<br>Parameters: "To validate that the URL will redirect to Universal Class home page.", "Optional[Verification of the URL]"</td>
+<td></td>
+<td>10</td>
+<td>com.Runner.UniversalClassRunner@7526515b</td></tr>
+<tr>
+<td title='com.Runner.UniversalClassRunner.Scenario()'><b>Scenario</b><br>Test class: com.Runner.UniversalClassRunner<br>Test method: Runs Cucumber Feature<br>Parameters: "To validate that clicking on more option give a list of options like Sign in, subscribe, etc.", "Optional[Verification of Sign In Option]"</td>
+<td></td>
+<td>5</td>
+<td>com.Runner.UniversalClassRunner@7526515b</td></tr>
+<tr>
+<td title='com.Runner.UniversalClassRunner.Scenario()'><b>Scenario</b><br>Test class: com.Runner.UniversalClassRunner<br>Test method: Runs Cucumber Feature<br>Parameters: "To validate that the user should land on Online Search Page when click enter without entering any text in search box.", "Optional[Verification of Search Box with no Text]"</td>
+<td></td>
+<td>8</td>
+<td>com.Runner.UniversalClassRunner@7526515b</td></tr>
+<tr>
+<td title='com.Runner.UniversalClassRunner.Scenario()'><b>Scenario</b><br>Test class: com.Runner.UniversalClassRunner<br>Test method: Runs Cucumber Feature<br>Parameters: "To validate that after clicking on sign in button Member Sign In  window will appears.", "Optional[Verification of Sign In Button]"</td>
+<td></td>
+<td>7</td>
+<td>com.Runner.UniversalClassRunner@7526515b</td></tr>
+<tr>
+<td title='com.Runner.UniversalClassRunner.Scenario()'><b>Scenario</b><br>Test class: com.Runner.UniversalClassRunner<br>Test method: Runs Cucumber Feature<br>Parameters: "To validate that when user put a new email address the sign in button act as Sign up option .", "Optional[Verification of Sign up option]"</td>
+<td></td>
+<td>11</td>
+<td>com.Runner.UniversalClassRunner@7526515b</td></tr>
+<tr>
+<td title='com.Runner.UniversalClassRunner.Scenario()'><b>Scenario</b><br>Test class: com.Runner.UniversalClassRunner<br>Test method: Runs Cucumber Feature<br>Parameters: "To validate that the user is able to see Recent Search content.", "Optional[Verification of Recent Search]"</td>
+<td></td>
+<td>5</td>
+<td>com.Runner.UniversalClassRunner@7526515b</td></tr>
+<tr>
+<td title='com.Runner.UniversalClassRunner.Scenario()'><b>Scenario</b><br>Test class: com.Runner.UniversalClassRunner<br>Test method: Runs Cucumber Feature<br>Parameters: "To validate that the matched data in Search Bar give Course details", "Optional[Verification of matched data in Search Bar.]"</td>
+<td></td>
+<td>7</td>
+<td>com.Runner.UniversalClassRunner@7526515b</td></tr>
+<tr>
+<td title='com.Runner.UniversalClassRunner.Scenario()'><b>Scenario</b><br>Test class: com.Runner.UniversalClassRunner<br>Test method: Runs Cucumber Feature<br>Parameters: "To validate that the textbox accept the email address for recovery", "Optional[Verification of Recovery mail textbox]"</td>
+<td></td>
+<td>7</td>
+<td>com.Runner.UniversalClassRunner@7526515b</td></tr>
+<tr>
+<td title='com.Runner.UniversalClassRunner.Scenario()'><b>Scenario</b><br>Test class: com.Runner.UniversalClassRunner<br>Test method: Runs Cucumber Feature<br>Parameters: "To validate that after putting email and password sign in button will redirect to home page", "Optional[Verification of Home Page]"</td>
+<td></td>
+<td>11</td>
+<td>com.Runner.UniversalClassRunner@7526515b</td></tr>
+<tr>
+<td title='com.Runner.UniversalClassRunner.Scenario()'><b>Scenario</b><br>Test class: com.Runner.UniversalClassRunner<br>Test method: Runs Cucumber Feature<br>Parameters: "To validate that Sign in window have text box for Email and password respectively.", "Optional[Verification of Sign In Button]"</td>
+<td></td>
+<td>8</td>
+<td>com.Runner.UniversalClassRunner@7526515b</td></tr>
+<tr>
+<td title='com.Runner.UniversalClassRunner.Scenario()'><b>Scenario</b><br>Test class: com.Runner.UniversalClassRunner<br>Test method: Runs Cucumber Feature<br>Parameters: "To validate that the unmatched data in Search Bar give Error Message .", "Optional[Verification of unmatched data in Search Bar.]"</td>
+<td></td>
+<td>7</td>
+<td>com.Runner.UniversalClassRunner@7526515b</td></tr>
+<tr>
+<td title='com.Runner.UniversalClassRunner.Scenario()'><b>Scenario</b><br>Test class: com.Runner.UniversalClassRunner<br>Test method: Runs Cucumber Feature<br>Parameters: "To validate that the user should put correct email address and password during login", "Optional[Verification of Credentials]"</td>
+<td></td>
+<td>11</td>
+<td>com.Runner.UniversalClassRunner@7526515b</td></tr>
+<tr>
+<td title='com.Runner.UniversalClassRunner.Scenario()'><b>Scenario</b><br>Test class: com.Runner.UniversalClassRunner<br>Test method: Runs Cucumber Feature<br>Parameters: "To validate that the user should get Tip for wrong password.", "Optional[Verification of Wrong password]"</td>
+<td></td>
+<td>10</td>
+<td>com.Runner.UniversalClassRunner@7526515b</td></tr>
+<tr>
+<td title='com.Runner.UniversalClassRunner.Scenario()'><b>Scenario</b><br>Test class: com.Runner.UniversalClassRunner<br>Test method: Runs Cucumber Feature<br>Parameters: "To validate that the my course button show opted courses.", "Optional[Verification of my class button]"</td>
+<td></td>
+<td>8</td>
+<td>com.Runner.UniversalClassRunner@7526515b</td></tr>
+<tr>
+<td title='com.Runner.UniversalClassRunner.Scenario()'><b>Scenario</b><br>Test class: com.Runner.UniversalClassRunner<br>Test method: Runs Cucumber Feature<br>Parameters: "To validate that Forgot password link will redirect to the page where user enter recovery email", "Optional[Verification of Forgot password link]"</td>
+<td></td>
+<td>12</td>
+<td>com.Runner.UniversalClassRunner@7526515b</td></tr>
+<tr>
+<td title='com.Runner.UniversalClassRunner.Scenario()'><b>Scenario</b><br>Test class: com.Runner.UniversalClassRunner<br>Test method: Runs Cucumber Feature<br>Parameters: "To validate that user should get a double verification process during the creation of account.", "Optional[Verification of Double check during Account creation]"</td>
+<td></td>
+<td>12</td>
+<td>com.Runner.UniversalClassRunner@7526515b</td></tr>
+<tr>
+<td title='com.Runner.UniversalClassRunner.Scenario()'><b>Scenario</b><br>Test class: com.Runner.UniversalClassRunner<br>Test method: Runs Cucumber Feature<br>Parameters: "To validate that the pop up will show when click on course catalog.", "Optional[Verification of Course Catalog Button]"</td>
+<td></td>
+<td>5</td>
+<td>com.Runner.UniversalClassRunner@7526515b</td></tr>
+<tr>
+<td title='com.Runner.UniversalClassRunner.Scenario()'><b>Scenario</b><br>Test class: com.Runner.UniversalClassRunner<br>Test method: Runs Cucumber Feature<br>Parameters: "To validate that clicking on close botton will close more option list.", "Optional[Verification of Sign In Option]"</td>
+<td></td>
+<td>5</td>
+<td>com.Runner.UniversalClassRunner@7526515b</td></tr>
+</table><p>
+</body>
+</html>

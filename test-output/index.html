@@ -1,0 +1,744 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Default_suite" class="navigator-link">
+              <span class="suite-name border-passed">Default suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
+                    <span>C:\Users\Prashant\AppData\Local\Temp\testng-eclipse-2010828648\testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Default_suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Default_suite" class="navigator-link ">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Default_suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Default_suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Default_suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Default_suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">19 methods,   19 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.Runner.UniversalClassRunner" class="method navigator-link" hash-for-method="Scenario(&quot;To validate that the user is able to put text in Search Bar&quot;, &quot;Optional[Verification of text in Sea...)">Scenario("To validate that the user is able to put text in Search Bar", "Optional[Verification of text in Sea...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.Runner.UniversalClassRunner" class="method navigator-link" hash-for-method="Scenario(&quot;To validate that the URL will redirect to Universal Class home page.&quot;, &quot;Optional[Verification of th...)">Scenario("To validate that the URL will redirect to Universal Class home page.", "Optional[Verification of th...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.Runner.UniversalClassRunner" class="method navigator-link" hash-for-method="Scenario(&quot;To validate that clicking on more option give a list of options like Sign in, subscribe, etc.&quot;, &quot;Op...)">Scenario("To validate that clicking on more option give a list of options like Sign in, subscribe, etc.", "Op...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.Runner.UniversalClassRunner" class="method navigator-link" hash-for-method="Scenario(&quot;To validate that the user should land on Online Search Page when click enter without entering any t...)">Scenario("To validate that the user should land on Online Search Page when click enter without entering any t...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.Runner.UniversalClassRunner" class="method navigator-link" hash-for-method="Scenario(&quot;To validate that after clicking on sign in button Member Sign In  window will appears.&quot;, &quot;Optional[...)">Scenario("To validate that after clicking on sign in button Member Sign In  window will appears.", "Optional[...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.Runner.UniversalClassRunner" class="method navigator-link" hash-for-method="Scenario(&quot;To validate that when user put a new email address the sign in button act as Sign up option .&quot;, &quot;Op...)">Scenario("To validate that when user put a new email address the sign in button act as Sign up option .", "Op...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.Runner.UniversalClassRunner" class="method navigator-link" hash-for-method="Scenario(&quot;To validate that the user is able to see Recent Search content.&quot;, &quot;Optional[Verification of Recent ...)">Scenario("To validate that the user is able to see Recent Search content.", "Optional[Verification of Recent ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.Runner.UniversalClassRunner" class="method navigator-link" hash-for-method="Scenario(&quot;To validate that the matched data in Search Bar give Course details&quot;, &quot;Optional[Verification of mat...)">Scenario("To validate that the matched data in Search Bar give Course details", "Optional[Verification of mat...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.Runner.UniversalClassRunner" class="method navigator-link" hash-for-method="Scenario(&quot;To validate that the textbox accept the email address for recovery&quot;, &quot;Optional[Verification of Reco...)">Scenario("To validate that the textbox accept the email address for recovery", "Optional[Verification of Reco...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.Runner.UniversalClassRunner" class="method navigator-link" hash-for-method="Scenario(&quot;To validate that after putting email and password sign in button will redirect to home page&quot;, &quot;Opti...)">Scenario("To validate that after putting email and password sign in button will redirect to home page", "Opti...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.Runner.UniversalClassRunner" class="method navigator-link" hash-for-method="Scenario(&quot;To validate that Sign in window have text box for Email and password respectively.&quot;, &quot;Optional[Veri...)">Scenario("To validate that Sign in window have text box for Email and password respectively.", "Optional[Veri...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.Runner.UniversalClassRunner" class="method navigator-link" hash-for-method="Scenario(&quot;To validate that the unmatched data in Search Bar give Error Message .&quot;, &quot;Optional[Verification of ...)">Scenario("To validate that the unmatched data in Search Bar give Error Message .", "Optional[Verification of ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.Runner.UniversalClassRunner" class="method navigator-link" hash-for-method="Scenario(&quot;To validate that the user should put correct email address and password during login&quot;, &quot;Optional[Ve...)">Scenario("To validate that the user should put correct email address and password during login", "Optional[Ve...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.Runner.UniversalClassRunner" class="method navigator-link" hash-for-method="Scenario(&quot;To validate that the user should get Tip for wrong password.&quot;, &quot;Optional[Verification of Wrong pass...)">Scenario("To validate that the user should get Tip for wrong password.", "Optional[Verification of Wrong pass...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.Runner.UniversalClassRunner" class="method navigator-link" hash-for-method="Scenario(&quot;To validate that the my course button show opted courses.&quot;, &quot;Optional[Verification of my class butt...)">Scenario("To validate that the my course button show opted courses.", "Optional[Verification of my class butt...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.Runner.UniversalClassRunner" class="method navigator-link" hash-for-method="Scenario(&quot;To validate that Forgot password link will redirect to the page where user enter recovery email&quot;, &quot;...)">Scenario("To validate that Forgot password link will redirect to the page where user enter recovery email", "...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.Runner.UniversalClassRunner" class="method navigator-link" hash-for-method="Scenario(&quot;To validate that user should get a double verification process during the creation of account.&quot;, &quot;O...)">Scenario("To validate that user should get a double verification process during the creation of account.", "O...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.Runner.UniversalClassRunner" class="method navigator-link" hash-for-method="Scenario(&quot;To validate that the pop up will show when click on course catalog.&quot;, &quot;Optional[Verification of Cou...)">Scenario("To validate that the pop up will show when click on course catalog.", "Optional[Verification of Cou...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.Runner.UniversalClassRunner" class="method navigator-link" hash-for-method="Scenario(&quot;To validate that clicking on close botton will close more option list.&quot;, &quot;Optional[Verification of ...)">Scenario("To validate that clicking on close botton will close more option list.", "Optional[Verification of ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.Runner.UniversalClassRunner</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Scenario(&quot;To validate that the user is able to put text in Search Bar&quot;, &quot;Optional[Verification of text in Sea...)">
+                  </a> <!-- Scenario("To validate that the user is able to put text in Search Bar", "Optional[Verification of text in Sea...) -->
+                  <span class="method-name">Scenario</span>
+                  <span class="parameters">("To validate that the user is able to put text in Search Bar", "Optional[Verification of text in Search Bar]")</span>
+                  <em>
+(Runs Cucumber Feature)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Scenario(&quot;To validate that the URL will redirect to Universal Class home page.&quot;, &quot;Optional[Verification of th...)">
+                  </a> <!-- Scenario("To validate that the URL will redirect to Universal Class home page.", "Optional[Verification of th...) -->
+                  <span class="method-name">Scenario</span>
+                  <span class="parameters">("To validate that the URL will redirect to Universal Class home page.", "Optional[Verification of the URL]")</span>
+                  <em>
+(Runs Cucumber Feature)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Scenario(&quot;To validate that clicking on more option give a list of options like Sign in, subscribe, etc.&quot;, &quot;Op...)">
+                  </a> <!-- Scenario("To validate that clicking on more option give a list of options like Sign in, subscribe, etc.", "Op...) -->
+                  <span class="method-name">Scenario</span>
+                  <span class="parameters">("To validate that clicking on more option give a list of options like Sign in, subscribe, etc.", "Optional[Verification of Sign In Option]")</span>
+                  <em>
+(Runs Cucumber Feature)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Scenario(&quot;To validate that the user should land on Online Search Page when click enter without entering any t...)">
+                  </a> <!-- Scenario("To validate that the user should land on Online Search Page when click enter without entering any t...) -->
+                  <span class="method-name">Scenario</span>
+                  <span class="parameters">("To validate that the user should land on Online Search Page when click enter without entering any text in search box.", "Optional[Verification of Search Box with no Text]")</span>
+                  <em>
+(Runs Cucumber Feature)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Scenario(&quot;To validate that after clicking on sign in button Member Sign In  window will appears.&quot;, &quot;Optional[...)">
+                  </a> <!-- Scenario("To validate that after clicking on sign in button Member Sign In  window will appears.", "Optional[...) -->
+                  <span class="method-name">Scenario</span>
+                  <span class="parameters">("To validate that after clicking on sign in button Member Sign In  window will appears.", "Optional[Verification of Sign In Button]")</span>
+                  <em>
+(Runs Cucumber Feature)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Scenario(&quot;To validate that when user put a new email address the sign in button act as Sign up option .&quot;, &quot;Op...)">
+                  </a> <!-- Scenario("To validate that when user put a new email address the sign in button act as Sign up option .", "Op...) -->
+                  <span class="method-name">Scenario</span>
+                  <span class="parameters">("To validate that when user put a new email address the sign in button act as Sign up option .", "Optional[Verification of Sign up option]")</span>
+                  <em>
+(Runs Cucumber Feature)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Scenario(&quot;To validate that the user is able to see Recent Search content.&quot;, &quot;Optional[Verification of Recent ...)">
+                  </a> <!-- Scenario("To validate that the user is able to see Recent Search content.", "Optional[Verification of Recent ...) -->
+                  <span class="method-name">Scenario</span>
+                  <span class="parameters">("To validate that the user is able to see Recent Search content.", "Optional[Verification of Recent Search]")</span>
+                  <em>
+(Runs Cucumber Feature)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Scenario(&quot;To validate that the matched data in Search Bar give Course details&quot;, &quot;Optional[Verification of mat...)">
+                  </a> <!-- Scenario("To validate that the matched data in Search Bar give Course details", "Optional[Verification of mat...) -->
+                  <span class="method-name">Scenario</span>
+                  <span class="parameters">("To validate that the matched data in Search Bar give Course details", "Optional[Verification of matched data in Search Bar.]")</span>
+                  <em>
+(Runs Cucumber Feature)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Scenario(&quot;To validate that the textbox accept the email address for recovery&quot;, &quot;Optional[Verification of Reco...)">
+                  </a> <!-- Scenario("To validate that the textbox accept the email address for recovery", "Optional[Verification of Reco...) -->
+                  <span class="method-name">Scenario</span>
+                  <span class="parameters">("To validate that the textbox accept the email address for recovery", "Optional[Verification of Recovery mail textbox]")</span>
+                  <em>
+(Runs Cucumber Feature)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Scenario(&quot;To validate that after putting email and password sign in button will redirect to home page&quot;, &quot;Opti...)">
+                  </a> <!-- Scenario("To validate that after putting email and password sign in button will redirect to home page", "Opti...) -->
+                  <span class="method-name">Scenario</span>
+                  <span class="parameters">("To validate that after putting email and password sign in button will redirect to home page", "Optional[Verification of Home Page]")</span>
+                  <em>
+(Runs Cucumber Feature)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Scenario(&quot;To validate that Sign in window have text box for Email and password respectively.&quot;, &quot;Optional[Veri...)">
+                  </a> <!-- Scenario("To validate that Sign in window have text box for Email and password respectively.", "Optional[Veri...) -->
+                  <span class="method-name">Scenario</span>
+                  <span class="parameters">("To validate that Sign in window have text box for Email and password respectively.", "Optional[Verification of Sign In Button]")</span>
+                  <em>
+(Runs Cucumber Feature)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Scenario(&quot;To validate that the unmatched data in Search Bar give Error Message .&quot;, &quot;Optional[Verification of ...)">
+                  </a> <!-- Scenario("To validate that the unmatched data in Search Bar give Error Message .", "Optional[Verification of ...) -->
+                  <span class="method-name">Scenario</span>
+                  <span class="parameters">("To validate that the unmatched data in Search Bar give Error Message .", "Optional[Verification of unmatched data in Search Bar.]")</span>
+                  <em>
+(Runs Cucumber Feature)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Scenario(&quot;To validate that the user should put correct email address and password during login&quot;, &quot;Optional[Ve...)">
+                  </a> <!-- Scenario("To validate that the user should put correct email address and password during login", "Optional[Ve...) -->
+                  <span class="method-name">Scenario</span>
+                  <span class="parameters">("To validate that the user should put correct email address and password during login", "Optional[Verification of Credentials]")</span>
+                  <em>
+(Runs Cucumber Feature)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Scenario(&quot;To validate that the user should get Tip for wrong password.&quot;, &quot;Optional[Verification of Wrong pass...)">
+                  </a> <!-- Scenario("To validate that the user should get Tip for wrong password.", "Optional[Verification of Wrong pass...) -->
+                  <span class="method-name">Scenario</span>
+                  <span class="parameters">("To validate that the user should get Tip for wrong password.", "Optional[Verification of Wrong password]")</span>
+                  <em>
+(Runs Cucumber Feature)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Scenario(&quot;To validate that the my course button show opted courses.&quot;, &quot;Optional[Verification of my class butt...)">
+                  </a> <!-- Scenario("To validate that the my course button show opted courses.", "Optional[Verification of my class butt...) -->
+                  <span class="method-name">Scenario</span>
+                  <span class="parameters">("To validate that the my course button show opted courses.", "Optional[Verification of my class button]")</span>
+                  <em>
+(Runs Cucumber Feature)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Scenario(&quot;To validate that Forgot password link will redirect to the page where user enter recovery email&quot;, &quot;...)">
+                  </a> <!-- Scenario("To validate that Forgot password link will redirect to the page where user enter recovery email", "...) -->
+                  <span class="method-name">Scenario</span>
+                  <span class="parameters">("To validate that Forgot password link will redirect to the page where user enter recovery email", "Optional[Verification of Forgot password link]")</span>
+                  <em>
+(Runs Cucumber Feature)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Scenario(&quot;To validate that user should get a double verification process during the creation of account.&quot;, &quot;O...)">
+                  </a> <!-- Scenario("To validate that user should get a double verification process during the creation of account.", "O...) -->
+                  <span class="method-name">Scenario</span>
+                  <span class="parameters">("To validate that user should get a double verification process during the creation of account.", "Optional[Verification of Double check during Account creation]")</span>
+                  <em>
+(Runs Cucumber Feature)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Scenario(&quot;To validate that the pop up will show when click on course catalog.&quot;, &quot;Optional[Verification of Cou...)">
+                  </a> <!-- Scenario("To validate that the pop up will show when click on course catalog.", "Optional[Verification of Cou...) -->
+                  <span class="method-name">Scenario</span>
+                  <span class="parameters">("To validate that the pop up will show when click on course catalog.", "Optional[Verification of Course Catalog Button]")</span>
+                  <em>
+(Runs Cucumber Feature)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Scenario(&quot;To validate that clicking on close botton will close more option list.&quot;, &quot;Optional[Verification of ...)">
+                  </a> <!-- Scenario("To validate that clicking on close botton will close more option list.", "Optional[Verification of ...) -->
+                  <span class="method-name">Scenario</span>
+                  <span class="parameters">("To validate that clicking on close botton will close more option list.", "Optional[Verification of Sign In Option]")</span>
+                  <em>
+(Runs Cucumber Feature)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Prashant\AppData\Local\Temp\testng-eclipse-2010828648\testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.Runner.UniversalClassRunner&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Default test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">cucumber</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">Scenario</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(19);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'Scenario')
+data.setCell(0, 2, 'com.Runner.UniversalClassRunner')
+data.setCell(0, 3, 12922);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'Scenario')
+data.setCell(1, 2, 'com.Runner.UniversalClassRunner')
+data.setCell(1, 3, 12069);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'Scenario')
+data.setCell(2, 2, 'com.Runner.UniversalClassRunner')
+data.setCell(2, 3, 11936);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'Scenario')
+data.setCell(3, 2, 'com.Runner.UniversalClassRunner')
+data.setCell(3, 3, 11392);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'Scenario')
+data.setCell(4, 2, 'com.Runner.UniversalClassRunner')
+data.setCell(4, 3, 11365);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'Scenario')
+data.setCell(5, 2, 'com.Runner.UniversalClassRunner')
+data.setCell(5, 3, 10767);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'Scenario')
+data.setCell(6, 2, 'com.Runner.UniversalClassRunner')
+data.setCell(6, 3, 10350);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'Scenario')
+data.setCell(7, 2, 'com.Runner.UniversalClassRunner')
+data.setCell(7, 3, 8957);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'Scenario')
+data.setCell(8, 2, 'com.Runner.UniversalClassRunner')
+data.setCell(8, 3, 8090);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'Scenario')
+data.setCell(9, 2, 'com.Runner.UniversalClassRunner')
+data.setCell(9, 3, 8030);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'Scenario')
+data.setCell(10, 2, 'com.Runner.UniversalClassRunner')
+data.setCell(10, 3, 7270);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'Scenario')
+data.setCell(11, 2, 'com.Runner.UniversalClassRunner')
+data.setCell(11, 3, 7232);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'Scenario')
+data.setCell(12, 2, 'com.Runner.UniversalClassRunner')
+data.setCell(12, 3, 7218);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'Scenario')
+data.setCell(13, 2, 'com.Runner.UniversalClassRunner')
+data.setCell(13, 3, 7168);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'Scenario')
+data.setCell(14, 2, 'com.Runner.UniversalClassRunner')
+data.setCell(14, 3, 5838);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'Scenario')
+data.setCell(15, 2, 'com.Runner.UniversalClassRunner')
+data.setCell(15, 3, 5824);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'Scenario')
+data.setCell(16, 2, 'com.Runner.UniversalClassRunner')
+data.setCell(16, 3, 5649);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'Scenario')
+data.setCell(17, 2, 'com.Runner.UniversalClassRunner')
+data.setCell(17, 3, 5533);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'Scenario')
+data.setCell(18, 2, 'com.Runner.UniversalClassRunner')
+data.setCell(18, 3, 5497);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.Runner.UniversalClassRunner</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpCucumber</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpClass</span>
+                <span class="method-start">1174 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Scenario("To validate that the URL will redirect to Universal Class home page.", "Optional[Verification of th...)</span>
+                <span class="method-start">1176 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Scenario("To validate that clicking on more option give a list of options like Sign in, subscribe, etc.", "Op...)</span>
+                <span class="method-start">11529 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpClass</span>
+                <span class="method-start">11529 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Scenario("To validate that clicking on close botton will close more option list.", "Optional[Verification of ...)</span>
+                <span class="method-start">17029 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpClass</span>
+                <span class="method-start">17029 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpClass</span>
+                <span class="method-start">22869 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Scenario("To validate that after clicking on sign in button Member Sign In  window will appears.", "Optional[...)</span>
+                <span class="method-start">22870 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpClass</span>
+                <span class="method-start">30040 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Scenario("To validate that Sign in window have text box for Email and password respectively.", "Optional[Veri...)</span>
+                <span class="method-start">30041 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpClass</span>
+                <span class="method-start">38134 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Scenario("To validate that when user put a new email address the sign in button act as Sign up option .", "Op...)</span>
+                <span class="method-start">38135 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpClass</span>
+                <span class="method-start">50076 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Scenario("To validate that the user should put correct email address and password during login", "Optional[Ve...)</span>
+                <span class="method-start">50077 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpClass</span>
+                <span class="method-start">61475 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Scenario("To validate that user should get a double verification process during the creation of account.", "O...)</span>
+                <span class="method-start">61477 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpClass</span>
+                <span class="method-start">74401 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Scenario("To validate that the user should get Tip for wrong password.", "Optional[Verification of Wrong pass...)</span>
+                <span class="method-start">74402 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpClass</span>
+                <span class="method-start">85173 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Scenario("To validate that after putting email and password sign in button will redirect to home page", "Opti...)</span>
+                <span class="method-start">85174 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpClass</span>
+                <span class="method-start">96541 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Scenario("To validate that Forgot password link will redirect to the page where user enter recovery email", "...)</span>
+                <span class="method-start">96541 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpClass</span>
+                <span class="method-start">108613 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Scenario("To validate that the textbox accept the email address for recovery", "Optional[Verification of Reco...)</span>
+                <span class="method-start">108615 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpClass</span>
+                <span class="method-start">115887 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Scenario("To validate that the user is able to put text in Search Bar", "Optional[Verification of text in Sea...)</span>
+                <span class="method-start">115887 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpClass</span>
+                <span class="method-start">121714 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Scenario("To validate that the matched data in Search Bar give Course details", "Optional[Verification of mat...)</span>
+                <span class="method-start">121715 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpClass</span>
+                <span class="method-start">128935 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Scenario("To validate that the unmatched data in Search Bar give Error Message .", "Optional[Verification of ...)</span>
+                <span class="method-start">128936 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpClass</span>
+                <span class="method-start">136171 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Scenario("To validate that the user is able to see Recent Search content.", "Optional[Verification of Recent ...)</span>
+                <span class="method-start">136172 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpClass</span>
+                <span class="method-start">141823 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Scenario("To validate that the user should land on Online Search Page when click enter without entering any t...)</span>
+                <span class="method-start">141824 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpClass</span>
+                <span class="method-start">150783 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Scenario("To validate that the pop up will show when click on course catalog.", "Optional[Verification of Cou...)</span>
+                <span class="method-start">150783 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Scenario("To validate that the my course button show opted courses.", "Optional[Verification of my class butt...)</span>
+                <span class="method-start">156318 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpClass</span>
+                <span class="method-start">156318 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownClass</span>
+                <span class="method-start">164351 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

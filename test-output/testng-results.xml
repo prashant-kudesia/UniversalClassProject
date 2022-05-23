@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="19" passed="19" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-05-23T01:47:07 IST" name="Default suite" finished-at="2022-05-23T01:49:52 IST" duration-ms="164643">
+    <groups>
+      <group name="cucumber">
+        <method signature="UniversalClassRunner.Scenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.Runner.UniversalClassRunner@7526515b]" name="Scenario" class="com.Runner.UniversalClassRunner"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2022-05-23T01:47:07 IST" name="Default test" finished-at="2022-05-23T01:49:52 IST" duration-ms="164643">
+      <class name="com.Runner.UniversalClassRunner">
+        <test-method is-config="true" signature="setUpCucumber()[pri:0, instance:com.Runner.UniversalClassRunner@7526515b]" started-at="2022-05-23T01:47:07 IST" name="setUpCucumber" finished-at="2022-05-23T01:47:08 IST" duration-ms="1132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpCucumber -->
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.Runner.UniversalClassRunner@7526515b]" started-at="2022-05-23T01:47:08 IST" name="setUpClass" finished-at="2022-05-23T01:47:08 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="Scenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.Runner.UniversalClassRunner@7526515b]" started-at="2022-05-23T01:47:08 IST" name="Scenario" description="Runs Cucumber Feature" data-provider="Scenarios" finished-at="2022-05-23T01:47:18 IST" duration-ms="10350" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To validate that the URL will redirect to Universal Class home page."]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Verification of the URL]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Scenario -->
+        <test-method signature="Scenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.Runner.UniversalClassRunner@7526515b]" started-at="2022-05-23T01:47:18 IST" name="Scenario" description="Runs Cucumber Feature" data-provider="Scenarios" finished-at="2022-05-23T01:47:24 IST" duration-ms="5497" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To validate that clicking on more option give a list of options like Sign in, subscribe, etc."]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Verification of Sign In Option]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Scenario -->
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.Runner.UniversalClassRunner@7526515b]" started-at="2022-05-23T01:47:18 IST" name="setUpClass" finished-at="2022-05-23T01:47:18 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="Scenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.Runner.UniversalClassRunner@7526515b]" started-at="2022-05-23T01:47:24 IST" name="Scenario" description="Runs Cucumber Feature" data-provider="Scenarios" finished-at="2022-05-23T01:47:30 IST" duration-ms="5838" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To validate that clicking on close botton will close more option list."]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Verification of Sign In Option]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Scenario -->
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.Runner.UniversalClassRunner@7526515b]" started-at="2022-05-23T01:47:24 IST" name="setUpClass" finished-at="2022-05-23T01:47:24 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.Runner.UniversalClassRunner@7526515b]" started-at="2022-05-23T01:47:30 IST" name="setUpClass" finished-at="2022-05-23T01:47:30 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="Scenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.Runner.UniversalClassRunner@7526515b]" started-at="2022-05-23T01:47:30 IST" name="Scenario" description="Runs Cucumber Feature" data-provider="Scenarios" finished-at="2022-05-23T01:47:37 IST" duration-ms="7168" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To validate that after clicking on sign in button Member Sign In  window will appears."]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Verification of Sign In Button]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Scenario -->
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.Runner.UniversalClassRunner@7526515b]" started-at="2022-05-23T01:47:37 IST" name="setUpClass" finished-at="2022-05-23T01:47:37 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="Scenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.Runner.UniversalClassRunner@7526515b]" started-at="2022-05-23T01:47:37 IST" name="Scenario" description="Runs Cucumber Feature" data-provider="Scenarios" finished-at="2022-05-23T01:47:45 IST" duration-ms="8090" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To validate that Sign in window have text box for Email and password respectively."]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Verification of Sign In Button]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Scenario -->
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.Runner.UniversalClassRunner@7526515b]" started-at="2022-05-23T01:47:45 IST" name="setUpClass" finished-at="2022-05-23T01:47:45 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="Scenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.Runner.UniversalClassRunner@7526515b]" started-at="2022-05-23T01:47:45 IST" name="Scenario" description="Runs Cucumber Feature" data-provider="Scenarios" finished-at="2022-05-23T01:47:57 IST" duration-ms="11936" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To validate that when user put a new email address the sign in button act as Sign up option ."]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Verification of Sign up option]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Scenario -->
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.Runner.UniversalClassRunner@7526515b]" started-at="2022-05-23T01:47:57 IST" name="setUpClass" finished-at="2022-05-23T01:47:57 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="Scenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.Runner.UniversalClassRunner@7526515b]" started-at="2022-05-23T01:47:57 IST" name="Scenario" description="Runs Cucumber Feature" data-provider="Scenarios" finished-at="2022-05-23T01:48:08 IST" duration-ms="11392" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To validate that the user should put correct email address and password during login"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Verification of Credentials]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Scenario -->
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.Runner.UniversalClassRunner@7526515b]" started-at="2022-05-23T01:48:08 IST" name="setUpClass" finished-at="2022-05-23T01:48:08 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="Scenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.Runner.UniversalClassRunner@7526515b]" started-at="2022-05-23T01:48:08 IST" name="Scenario" description="Runs Cucumber Feature" data-provider="Scenarios" finished-at="2022-05-23T01:48:21 IST" duration-ms="12922" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To validate that user should get a double verification process during the creation of account."]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Verification of Double check during Account creation]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Scenario -->
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.Runner.UniversalClassRunner@7526515b]" started-at="2022-05-23T01:48:21 IST" name="setUpClass" finished-at="2022-05-23T01:48:21 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="Scenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.Runner.UniversalClassRunner@7526515b]" started-at="2022-05-23T01:48:21 IST" name="Scenario" description="Runs Cucumber Feature" data-provider="Scenarios" finished-at="2022-05-23T01:48:32 IST" duration-ms="10767" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To validate that the user should get Tip for wrong password."]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Verification of Wrong password]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Scenario -->
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.Runner.UniversalClassRunner@7526515b]" started-at="2022-05-23T01:48:32 IST" name="setUpClass" finished-at="2022-05-23T01:48:32 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="Scenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.Runner.UniversalClassRunner@7526515b]" started-at="2022-05-23T01:48:32 IST" name="Scenario" description="Runs Cucumber Feature" data-provider="Scenarios" finished-at="2022-05-23T01:48:43 IST" duration-ms="11365" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To validate that after putting email and password sign in button will redirect to home page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Verification of Home Page]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Scenario -->
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.Runner.UniversalClassRunner@7526515b]" started-at="2022-05-23T01:48:43 IST" name="setUpClass" finished-at="2022-05-23T01:48:43 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="Scenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.Runner.UniversalClassRunner@7526515b]" started-at="2022-05-23T01:48:43 IST" name="Scenario" description="Runs Cucumber Feature" data-provider="Scenarios" finished-at="2022-05-23T01:48:56 IST" duration-ms="12069" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To validate that Forgot password link will redirect to the page where user enter recovery email"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Verification of Forgot password link]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Scenario -->
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.Runner.UniversalClassRunner@7526515b]" started-at="2022-05-23T01:48:56 IST" name="setUpClass" finished-at="2022-05-23T01:48:56 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="Scenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.Runner.UniversalClassRunner@7526515b]" started-at="2022-05-23T01:48:56 IST" name="Scenario" description="Runs Cucumber Feature" data-provider="Scenarios" finished-at="2022-05-23T01:49:03 IST" duration-ms="7270" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To validate that the textbox accept the email address for recovery"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Verification of Recovery mail textbox]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Scenario -->
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.Runner.UniversalClassRunner@7526515b]" started-at="2022-05-23T01:49:03 IST" name="setUpClass" finished-at="2022-05-23T01:49:03 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="Scenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.Runner.UniversalClassRunner@7526515b]" started-at="2022-05-23T01:49:03 IST" name="Scenario" description="Runs Cucumber Feature" data-provider="Scenarios" finished-at="2022-05-23T01:49:09 IST" duration-ms="5824" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To validate that the user is able to put text in Search Bar"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Verification of text in Search Bar]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Scenario -->
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.Runner.UniversalClassRunner@7526515b]" started-at="2022-05-23T01:49:09 IST" name="setUpClass" finished-at="2022-05-23T01:49:09 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="Scenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.Runner.UniversalClassRunner@7526515b]" started-at="2022-05-23T01:49:09 IST" name="Scenario" description="Runs Cucumber Feature" data-provider="Scenarios" finished-at="2022-05-23T01:49:16 IST" duration-ms="7218" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To validate that the matched data in Search Bar give Course details"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Verification of matched data in Search Bar.]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Scenario -->
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.Runner.UniversalClassRunner@7526515b]" started-at="2022-05-23T01:49:16 IST" name="setUpClass" finished-at="2022-05-23T01:49:16 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="Scenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.Runner.UniversalClassRunner@7526515b]" started-at="2022-05-23T01:49:16 IST" name="Scenario" description="Runs Cucumber Feature" data-provider="Scenarios" finished-at="2022-05-23T01:49:23 IST" duration-ms="7232" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To validate that the unmatched data in Search Bar give Error Message ."]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Verification of unmatched data in Search Bar.]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Scenario -->
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.Runner.UniversalClassRunner@7526515b]" started-at="2022-05-23T01:49:23 IST" name="setUpClass" finished-at="2022-05-23T01:49:23 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="Scenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.Runner.UniversalClassRunner@7526515b]" started-at="2022-05-23T01:49:23 IST" name="Scenario" description="Runs Cucumber Feature" data-provider="Scenarios" finished-at="2022-05-23T01:49:29 IST" duration-ms="5649" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To validate that the user is able to see Recent Search content."]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Verification of Recent Search]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Scenario -->
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.Runner.UniversalClassRunner@7526515b]" started-at="2022-05-23T01:49:29 IST" name="setUpClass" finished-at="2022-05-23T01:49:29 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="Scenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.Runner.UniversalClassRunner@7526515b]" started-at="2022-05-23T01:49:29 IST" name="Scenario" description="Runs Cucumber Feature" data-provider="Scenarios" finished-at="2022-05-23T01:49:38 IST" duration-ms="8957" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To validate that the user should land on Online Search Page when click enter without entering any text in search box."]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Verification of Search Box with no Text]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Scenario -->
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.Runner.UniversalClassRunner@7526515b]" started-at="2022-05-23T01:49:38 IST" name="setUpClass" finished-at="2022-05-23T01:49:38 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="Scenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.Runner.UniversalClassRunner@7526515b]" started-at="2022-05-23T01:49:38 IST" name="Scenario" description="Runs Cucumber Feature" data-provider="Scenarios" finished-at="2022-05-23T01:49:43 IST" duration-ms="5533" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To validate that the pop up will show when click on course catalog."]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Verification of Course Catalog Button]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Scenario -->
+        <test-method signature="Scenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.Runner.UniversalClassRunner@7526515b]" started-at="2022-05-23T01:49:43 IST" name="Scenario" description="Runs Cucumber Feature" data-provider="Scenarios" finished-at="2022-05-23T01:49:51 IST" duration-ms="8030" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To validate that the my course button show opted courses."]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Verification of my class button]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Scenario -->
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.Runner.UniversalClassRunner@7526515b]" started-at="2022-05-23T01:49:43 IST" name="setUpClass" finished-at="2022-05-23T01:49:43 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.Runner.UniversalClassRunner@7526515b]" started-at="2022-05-23T01:49:51 IST" name="tearDownClass" finished-at="2022-05-23T01:49:52 IST" duration-ms="265" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.Runner.UniversalClassRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="19" time="163.439">
+    <testcase classname="Verification of the URL" name="To validate that the URL will redirect to Universal Class home page." time="10.118">
+        <system-out><![CDATA[Given User is on Browser....................................................passed
+When User enters URL in address bar.........................................passed
+Then User lands on Universal class Home Page................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Verification of Sign In Option" name="To validate that clicking on more option give a list of options like Sign in, subscribe, etc." time="5.474">
+        <system-out><![CDATA[Given User is on Universal Class Page.......................................passed
+When User clicks on more option button......................................passed
+Then User is able to view options like Sign in, subscribe , etc.............passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Verification of Sign In Option" name="To validate that clicking on close botton will close more option list." time="5.806">
+        <system-out><![CDATA[Given User is on Universal Class Page.......................................passed
+When User clicks on more option button......................................passed
+Then User click on close button to close the more option list...............passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Verification of Sign In Button" name="To validate that after clicking on sign in button Member Sign In  window will appears." time="7.153">
+        <system-out><![CDATA[Given User is on Universal Class Page.......................................passed
+When User clicks on more option button......................................passed
+Then User click on Sign in button and Member sign in window will appears....passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Verification of Sign In Button" name="To validate that Sign in window have text box for Email and password respectively." time="8.082">
+        <system-out><![CDATA[Given User is on Universal Class Page.......................................passed
+When User clicks on more option button......................................passed
+Then User click on Sign in button and see two text box for email and password resp.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Verification of Sign up option" name="To validate that when user put a new email address the sign in button act as Sign up option ." time="11.914">
+        <system-out><![CDATA[Given User is on Universal Class Page.......................................passed
+When User clicks on more option button......................................passed
+Then User click on Sign in button and Enter new email for sign up...........passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Verification of Credentials" name="To validate that the user should put correct email address and password during login" time="11.363">
+        <system-out><![CDATA[Given User is on Universal Class Page.......................................passed
+When User clicks on more option button......................................passed
+Then User click on Sign in button and Enter email and password for login....passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Verification of Double check during Account creation" name="To validate that user should get a double verification process during the creation of account." time="12.894">
+        <system-out><![CDATA[Given User is on Universal Class Page.......................................passed
+When User clicks on more option button......................................passed
+Then User click on Sign in button and Enter credentials and face a double check..passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Verification of Wrong password" name="To validate that the user should get Tip for wrong password." time="10.74">
+        <system-out><![CDATA[Given User is on Universal Class Page.......................................passed
+When User clicks on more option button......................................passed
+Then User click on Sign in button and Enter credentials and get a tip for wrong password..passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Verification of Home Page" name="To validate that after putting email and password sign in button will redirect to home page" time="11.336">
+        <system-out><![CDATA[Given User is on Universal Class Page.......................................passed
+When User clicks on more option button......................................passed
+Then User click on Sign in button and Enter credentials to land on home page.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Verification of Forgot password link" name="To validate that Forgot password link will redirect to the page where user enter recovery email" time="12.064">
+        <system-out><![CDATA[Given User is on Universal Class Page.......................................passed
+When User clicks on more option button......................................passed
+Then User click on forgot password link.....................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Verification of Recovery mail textbox" name="To validate that the textbox accept the email address for recovery" time="7.251">
+        <system-out><![CDATA[Given User is on Universal Class Page.......................................passed
+When User clicks on more option button......................................passed
+Then User click on email textbox for recovery...............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Verification of text in Search Bar" name="To validate that the user is able to put text in Search Bar" time="5.813">
+        <system-out><![CDATA[Given User is on Universal Class Page.......................................passed
+When User clicks on more option button......................................passed
+Then User click on Search bar and enter text................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Verification of matched data in Search Bar." name="To validate that the matched data in Search Bar give Course details" time="7.21">
+        <system-out><![CDATA[Given User is on Universal Class Page.......................................passed
+When User clicks on more option button......................................passed
+Then User click on Search bar and enter matched data........................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Verification of unmatched data in Search Bar." name="To validate that the unmatched data in Search Bar give Error Message ." time="7.223">
+        <system-out><![CDATA[Given User is on Universal Class Page.......................................passed
+When User clicks on more option button......................................passed
+Then User click on Search bar and enter unmatched data......................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Verification of Recent Search" name="To validate that the user is able to see Recent Search content." time="5.617">
+        <system-out><![CDATA[Given User is on Universal Class Page.......................................passed
+When User clicks on more option button......................................passed
+Then User click on Search bar...............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Verification of Search Box with no Text" name="To validate that the user should land on Online Search Page when click enter without entering any text in search box." time="8.948">
+        <system-out><![CDATA[Given User is on Universal Class Page.......................................passed
+When User clicks on more option button......................................passed
+Then User click on Search bar and enter no text.............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Verification of Course Catalog Button" name="To validate that the pop up will show when click on course catalog." time="5.515">
+        <system-out><![CDATA[Given User is on Universal Class Page.......................................passed
+When User clicks on more option button......................................passed
+Then User click on course catalog button....................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Verification of my class button" name="To validate that the my course button show opted courses." time="8.017">
+        <system-out><![CDATA[Given User is on Universal Class Page.......................................passed
+When User clicks on more option button......................................passed
+Then User click on my class button..........................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

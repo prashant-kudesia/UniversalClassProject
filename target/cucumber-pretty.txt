@@ -1,0 +1,114 @@
+
+@tag @tag1
+Scenario Outline: To validate that the URL will redirect to Universal Class home page. # Features/Feature_1.1_URL_Verification.feature:24
+  Given User is on Browser                                                             # com.StepDefinition.StepDefinition_UniversalClass.user_is_on_browser()
+  When User enters URL in address bar                                                  # com.StepDefinition.StepDefinition_UniversalClass.user_enters_url_in_address_bar()
+  Then User lands on Universal class Home Page                                         # com.StepDefinition.StepDefinition_UniversalClass.user_lands_on_universal_class_home_page()
+
+@tag @tag1
+Scenario: To validate that clicking on more option give a list of options like Sign in, subscribe, etc. # Features/Feature_1.2_Sign_In.feature:23
+  Given User is on Universal Class Page                                                                 # com.StepDefinition.StepDefinition_UniversalClass.user_is_on_universal_class_page()
+  When User clicks on more option button                                                                # com.StepDefinition.StepDefinition_UniversalClass.user_clicks_on_more_option_button()
+  Then User is able to view options like Sign in, subscribe , etc                                       # com.StepDefinition.StepDefinition_UniversalClass.user_is_able_to_view_options_like_sign_in_subscribe_etc()
+
+@tag @tag2
+Scenario: To validate that clicking on close botton will close more option list. # Features/Feature_1.2_Sign_In.feature:29
+  Given User is on Universal Class Page                                          # com.StepDefinition.StepDefinition_UniversalClass.user_is_on_universal_class_page()
+  When User clicks on more option button                                         # com.StepDefinition.StepDefinition_UniversalClass.user_clicks_on_more_option_button()
+  Then User click on close button to close the more option list                  # com.StepDefinition.StepDefinition_UniversalClass.user_click_on_close_button_to_close_the_more_option_list()
+
+@tag @tag1
+Scenario: To validate that after clicking on sign in button Member Sign In  window will appears. # Features/Feature_1.3_Member_Sign_In.feature:23
+  Given User is on Universal Class Page                                                          # com.StepDefinition.StepDefinition_UniversalClass.user_is_on_universal_class_page()
+  When User clicks on more option button                                                         # com.StepDefinition.StepDefinition_UniversalClass.user_clicks_on_more_option_button()
+  Then User click on Sign in button and Member sign in window will appears                       # com.StepDefinition.StepDefinition_UniversalClass.user_click_on_sign_in_button_and_member_sign_in_window_will_appears()
+
+@tag @tag2
+Scenario Outline: To validate that Sign in window have text box for Email and password respectively. # Features/Feature_1.3_Member_Sign_In.feature:29
+  Given User is on Universal Class Page                                                              # com.StepDefinition.StepDefinition_UniversalClass.user_is_on_universal_class_page()
+  When User clicks on more option button                                                             # com.StepDefinition.StepDefinition_UniversalClass.user_clicks_on_more_option_button()
+  Then User click on Sign in button and see two text box for email and password resp                 # com.StepDefinition.StepDefinition_UniversalClass.user_click_on_sign_in_button_and_see_two_text_box_for_email_and_password_resp()
+
+@tag @tag1
+Scenario: To validate that when user put a new email address the sign in button act as Sign up option . # Features/Feature_1.4_Sign_up.feature:23
+  Given User is on Universal Class Page                                                                 # com.StepDefinition.StepDefinition_UniversalClass.user_is_on_universal_class_page()
+  When User clicks on more option button                                                                # com.StepDefinition.StepDefinition_UniversalClass.user_clicks_on_more_option_button()
+  Then User click on Sign in button and Enter new email for sign up                                     # com.StepDefinition.StepDefinition_UniversalClass.user_click_on_sign_in_button_and_enter_new_email_for_sign_up()
+
+@tag @tag1
+Scenario: To validate that the user should put correct email address and password during login # Features/Feature_1.5_Correct_Credentials.feature:23
+  Given User is on Universal Class Page                                                        # com.StepDefinition.StepDefinition_UniversalClass.user_is_on_universal_class_page()
+  When User clicks on more option button                                                       # com.StepDefinition.StepDefinition_UniversalClass.user_clicks_on_more_option_button()
+  Then User click on Sign in button and Enter email and password for login                     # com.StepDefinition.StepDefinition_UniversalClass.user_click_on_sign_in_button_and_enter_email_and_password_for_login()
+
+@tag @tag1
+Scenario: To validate that user should get a double verification process during the creation of account. # Features/Feature_1.6_Double_check.feature:23
+  Given User is on Universal Class Page                                                                  # com.StepDefinition.StepDefinition_UniversalClass.user_is_on_universal_class_page()
+  When User clicks on more option button                                                                 # com.StepDefinition.StepDefinition_UniversalClass.user_clicks_on_more_option_button()
+  Then User click on Sign in button and Enter credentials and face a double check.                       # com.StepDefinition.StepDefinition_UniversalClass.user_click_on_sign_in_button_and_enter_credentials_and_face_a_double_check()
+
+@tag @tag1
+Scenario: To validate that the user should get Tip for wrong password.                      # Features/Feature_1.7_Wrong_Password.feature:23
+  Given User is on Universal Class Page                                                     # com.StepDefinition.StepDefinition_UniversalClass.user_is_on_universal_class_page()
+  When User clicks on more option button                                                    # com.StepDefinition.StepDefinition_UniversalClass.user_clicks_on_more_option_button()
+  Then User click on Sign in button and Enter credentials and get a tip for wrong password. # com.StepDefinition.StepDefinition_UniversalClass.user_click_on_sign_in_button_and_enter_credentials_and_get_a_tip_for_wrong_password()
+
+@tag @tag1
+Scenario: To validate that after putting email and password sign in button will redirect to home page # Features/Feature_1.8_Home_Page.feature:23
+  Given User is on Universal Class Page                                                               # com.StepDefinition.StepDefinition_UniversalClass.user_is_on_universal_class_page()
+  When User clicks on more option button                                                              # com.StepDefinition.StepDefinition_UniversalClass.user_clicks_on_more_option_button()
+  Then User click on Sign in button and Enter credentials to land on home page                        # com.StepDefinition.StepDefinition_UniversalClass.user_click_on_sign_in_button_and_enter_credentials_to_land_on_home_page()
+
+@tag @tag1
+Scenario: To validate that Forgot password link will redirect to the page where user enter recovery email # Features/Feature_2.1_Forgot_Password_Link.feature:23
+  Given User is on Universal Class Page                                                                   # com.StepDefinition.StepDefinition_UniversalClass.user_is_on_universal_class_page()
+  When User clicks on more option button                                                                  # com.StepDefinition.StepDefinition_UniversalClass.user_clicks_on_more_option_button()
+  Then User click on forgot password link                                                                 # com.StepDefinition.StepDefinition_UniversalClass.user_click_on_forgot_password_link()
+
+@tag @tag1
+Scenario: To validate that the textbox accept the email address for recovery # Features/Feature_2.2_Recovery_Mail_Textbox.feature:23
+  Given User is on Universal Class Page                                      # com.StepDefinition.StepDefinition_UniversalClass.user_is_on_universal_class_page()
+  When User clicks on more option button                                     # com.StepDefinition.StepDefinition_UniversalClass.user_clicks_on_more_option_button()
+  Then User click on email textbox for recovery                              # com.StepDefinition.StepDefinition_UniversalClass.user_click_on_email_textbox_for_recovery()
+
+@tag @tag1
+Scenario: To validate that the user is able to put text in Search Bar # Features/Feature_3.1_Search_Bar.feature:23
+  Given User is on Universal Class Page                               # com.StepDefinition.StepDefinition_UniversalClass.user_is_on_universal_class_page()
+  When User clicks on more option button                              # com.StepDefinition.StepDefinition_UniversalClass.user_clicks_on_more_option_button()
+  Then User click on Search bar and enter text                        # com.StepDefinition.StepDefinition_UniversalClass.user_click_on_search_bar_and_enter_text()
+
+@tag @tag1
+Scenario: To validate that the matched data in Search Bar give Course details # Features/Feature_3.2_Matched_Data_In_Search_Bar.feature:23
+  Given User is on Universal Class Page                                       # com.StepDefinition.StepDefinition_UniversalClass.user_is_on_universal_class_page()
+  When User clicks on more option button                                      # com.StepDefinition.StepDefinition_UniversalClass.user_clicks_on_more_option_button()
+  Then User click on Search bar and enter matched data                        # com.StepDefinition.StepDefinition_UniversalClass.user_click_on_search_bar_and_enter_matched_data()
+
+@tag @tag1
+Scenario: To validate that the unmatched data in Search Bar give Error Message . # Features/Feature_3.3_Unmatched_Data_In_Search_Bar.feature:23
+  Given User is on Universal Class Page                                          # com.StepDefinition.StepDefinition_UniversalClass.user_is_on_universal_class_page()
+  When User clicks on more option button                                         # com.StepDefinition.StepDefinition_UniversalClass.user_clicks_on_more_option_button()
+  Then User click on Search bar and enter unmatched data                         # com.StepDefinition.StepDefinition_UniversalClass.user_click_on_search_bar_and_enter_unmatched_data()
+
+@tag @tag1
+Scenario: To validate that the user is able to see Recent Search content. # Features/Feature_3.4_Recent_Search.feature:23
+  Given User is on Universal Class Page                                   # com.StepDefinition.StepDefinition_UniversalClass.user_is_on_universal_class_page()
+  When User clicks on more option button                                  # com.StepDefinition.StepDefinition_UniversalClass.user_clicks_on_more_option_button()
+  Then User click on Search bar                                           # com.StepDefinition.StepDefinition_UniversalClass.user_click_on_search_bar()
+
+@tag @tag1
+Scenario: To validate that the user should land on Online Search Page when click enter without entering any text in search box. # Features/Feature_3.5_No_Text_In_Search_Bar.feature:23
+  Given User is on Universal Class Page                                                                                         # com.StepDefinition.StepDefinition_UniversalClass.user_is_on_universal_class_page()
+  When User clicks on more option button                                                                                        # com.StepDefinition.StepDefinition_UniversalClass.user_clicks_on_more_option_button()
+  Then User click on Search bar and enter no text                                                                               # com.StepDefinition.StepDefinition_UniversalClass.user_click_on_search_bar_and_enter_no_text()
+
+@tag @tag1
+Scenario: To validate that the pop up will show when click on course catalog. # Features/Feature_4.1_Course_Catalog.feature:23
+  Given User is on Universal Class Page                                       # com.StepDefinition.StepDefinition_UniversalClass.user_is_on_universal_class_page()
+  When User clicks on more option button                                      # com.StepDefinition.StepDefinition_UniversalClass.user_clicks_on_more_option_button()
+  Then User click on course catalog button                                    # com.StepDefinition.StepDefinition_UniversalClass.user_click_on_course_catalog_button()
+
+@tag @tag1
+Scenario: To validate that the my course button show opted courses. # Features/Feature_5.1_My_Class.feature:23
+  Given User is on Universal Class Page                             # com.StepDefinition.StepDefinition_UniversalClass.user_is_on_universal_class_page()
+  When User clicks on more option button                            # com.StepDefinition.StepDefinition_UniversalClass.user_clicks_on_more_option_button()
+  Then User click on my class button                                # com.StepDefinition.StepDefinition_UniversalClass.user_click_on_my_class_button()
