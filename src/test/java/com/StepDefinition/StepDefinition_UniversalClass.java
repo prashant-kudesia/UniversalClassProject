@@ -2,30 +2,20 @@ package com.StepDefinition;
 
 import java.io.File;
 import java.io.FileInputStream;
-import java.io.IOException;
 import java.util.Properties;
-import java.util.concurrent.TimeUnit;
-
 import org.apache.poi.ss.usermodel.DataFormatter;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
-import org.dom4j.Document;
-import org.dom4j.io.SAXReader;
 import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import junit.framework.Assert;
 public class StepDefinition_UniversalClass {
 	
 	public static WebDriver driver;
 	static Properties prop=new Properties();
-	SAXReader sr=new SAXReader();
-	Document d = null;
 
 @Given("User is on Browser")
 public void user_is_on_browser() throws Exception {
